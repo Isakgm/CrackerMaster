@@ -98,7 +98,7 @@ namespace CrackerSlave
                 isPasswordFound = true;
             }
 
-            Connect("localhost", 7, result); // Forbinder til masteren igen for at sende resultatet
+            Connect("10.200.130.55", 12345, result); // Forbinder til masteren igen for at sende resultatet
 
             stopwatch.Stop();
             Console.WriteLine(string.Join(", ", result));

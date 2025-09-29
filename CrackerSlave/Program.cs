@@ -9,7 +9,7 @@ class Program
         List<UserInfoClearText> result = new List<UserInfoClearText>();
         Slave slave = new Slave();
 
-        slave.Connect("localhost", 7, result);
+        slave.Connect("10.200.130.55", 12345, result);
 
 
     }
